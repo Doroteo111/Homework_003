@@ -375,6 +375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b13c4e86e8d3624cae25e2af13f5302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDivisor: 3
+  isDividend: 15
 --- !u!65 &626797951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1209,11 +1211,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831217419}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff1a5c13393bd0a4b8cfc2d3d1be70eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  number: 25
 --- !u!65 &1831217421
 BoxCollider:
   m_ObjectHideFlags: 0
