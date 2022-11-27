@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class EXERCISE_7 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Create a function that, given a real number, returns its absolute value. 
 
-    // Update is called once per frame
-    void Update()
+    public float number = 3;
+    private float result;
+
+    private void Start()
     {
-        
+        RealNumber();
+    }
+    private bool RealNumber()
+    {
+        result = -number;
+        if (number >= 0)
+        {
+            Debug.Log($"His absolute value is {number}");
+            return true;
+
+        }
+        else 
+        {
+            Debug.Log($"His absolute value is {result} ");
+            return false;
+        }
     }
 }
