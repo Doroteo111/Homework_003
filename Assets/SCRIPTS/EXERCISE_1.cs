@@ -8,12 +8,12 @@ public class EXERCISE_1 : MonoBehaviour
 
     private void Start()
     {
-        Letter();
+        Letter(Vowel);
     }
 
-    private bool Letter()         //decision operator if-else
+    private bool Letter(string w)         //decision operator if-else
     {
-      if(Vowel== "a" || Vowel == "e" || Vowel == "i" || Vowel == "o" || Vowel == "u")
+      if(w == "a" || w == "e" || w == "i" || w == "o" || w == "u")
         {
             Debug.Log($"This letter is a vowel");
             return true;
