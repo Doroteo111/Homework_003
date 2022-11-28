@@ -9,12 +9,12 @@ public class EXERCISE_2 : MonoBehaviour
 
     private void Start()
     {
-        isEven();
+        isEven(number);
     }
 
-    private bool isEven()
+    private bool isEven(int x)
     {
-        result = number % 2;     //module operation
+        result = x % 2;     //module operation
         if(result == 0)
         {
             Debug.Log("This number  is even");  //decision operator if-else
