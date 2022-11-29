@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class EXERCISE_7 : MonoBehaviour
 {
-    // Create a function that, given a real number, returns its absolute value. 
 
     public float number = 3;
     private float result;
 
     private void Start()
     {
-        RealNumber();
+        RealNumber(number);
     }
-    private bool RealNumber()
+    private bool RealNumber(float x)
     {
-        result = -number;
-        if (number >= 0)
+        result = -x;
+        if (x >= 0)
         {
-            Debug.Log($"His absolute value is {number}");
+            Debug.Log($"His absolute value is {x}");
             return true;
 
         }

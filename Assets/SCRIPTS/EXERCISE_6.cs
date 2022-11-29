@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class EXERCISE_6 : MonoBehaviour
 {
-    // Create a function that, given two real numbers, returns the number that is larger
-
+    
     public float number1 = 10;
     public float number2 = 4;
    
